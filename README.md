@@ -17,6 +17,7 @@ To write a program to perform selection sort and insertion sort using python pro
 5.	Repeat the steps 2 and 3 for all the elements in the array.
 
 ## Insertion Sort Algorithm:
+
 1.	Set the first element as sorted element j.
 2.	For each unsorted element X, check if current sorted element j >X.
 3.	If yes, move sorted element to the right by 1.
@@ -42,7 +43,6 @@ list_of_nums = eval(input())
 selection_sort(list_of_nums)
 print(list_of_nums)
 
-
 ```
 ii)	#Insertion Sort:
 ```
@@ -60,8 +60,6 @@ def insertion_sort(nums):
 list_of_nums = eval(input())
 insertion_sort(list_of_nums)
 print(list_of_nums)
-
-
 ```
 
 ## Output:
